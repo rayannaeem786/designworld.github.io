@@ -15,10 +15,10 @@ function myfun(){
      if (person != null) {
          var apple = prompt("Hello " + person + "! How are you today?");
          if (apple == "fine") {
-             alert("Good");
+             alert("Your verifications are correct. Now you can easily view our website");
          } else {
-             alert("Okay Bye Thanks for Visiting Our Webiste");
-         };
+            alert("Your verifications are correct. Now you can easily view our website");
+        };
  
      }
  }
