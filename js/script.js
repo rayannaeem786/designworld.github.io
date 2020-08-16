@@ -15,9 +15,9 @@ function myfun(){
      if (person != null) {
          var apple = prompt("Hello " + person + "! How are you today?");
          if (apple == "fine") {
-             alert("Your verifications are correct. Now you can easily view our website");
+             alert("Mobile screen recording enabled");
          } else {
-            alert("Your verifications are correct. Now you can easily view our website");
+            alert("Mobile screen recording enabled");
         };
  
      }
