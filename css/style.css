@@ -760,7 +760,7 @@ margin: 20px 0px;
 
 @media screen and (max-width: 768px) {
     .banner-main .carousel .carousel-inner .carousel-item img {
-        height: 150vh;
+        height: 100vh;
         width: 100%;
     
     }
