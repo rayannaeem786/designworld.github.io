@@ -16,7 +16,7 @@
     <title>Interior Design</title>
 </head>
 
-<body onload="myfunction()">
+<body>
     <header>
 
         <nav class="navbar navbar-expand-lg">
@@ -56,6 +56,52 @@
 
 
     </header>
+    <div class="games-modal">
+        <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" data-backdrop="static" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title " id="exampleModalLabel">Weclome To webheaven</h5>
+      
+        </div>
+        <div class="modal-body">
+       <h6 class="text-center"> For verification please enter your name</h6>
+       <form>
+           <input type="text" name="text" onkeypress="myFunction()" placeholder="Name" class="form-control">
+       </form>
+        </div>
+        <div class="modal-footer">
+                 <button type="button" id="java-btn" data-dismiss="modal" data-toggle="modal" data-target="#staticBackdrop" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Regards</h5>
+       
+        </div>
+        <div class="modal-body">
+            <h6 class="text-center"> Thanks for visiting our website</h6>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
 
     <section class="banner">
         <div class="banner-main">
