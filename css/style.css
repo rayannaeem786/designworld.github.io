@@ -856,5 +856,5 @@ margin: 20px 0px;
 
 #staticBackdrop{
     transition: 1.3s !important;
-    background-color:rgba(0, 0, 0, 0.85);
+    background-color:rgba(10, 10, 10, 0.85);
 }
