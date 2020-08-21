@@ -862,3 +862,18 @@ margin: 20px 0px;
 .navbar-toggler{
     color: #febc35 !important;
 }
+#pills-home {
+    transition: 0.0s;
+}
+
+#pills-profile {
+    transition: 0.0s;
+}
+
+#pills-contact{
+    transition: 0.0s;
+}
+
+#pills-design {
+    transition: 0.0s;
+}
