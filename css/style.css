@@ -853,10 +853,8 @@ margin: 20px 0px;
       padding-left: 20px;
       
   }
-  #java-btn{
-    display: none;
-}
+
 #staticBackdrop{
-    transition: 3.5s !important;
+    transition: 1.3s !important;
     background-color:rgba(0, 0, 0, 0.85);
 }

@@ -1,32 +1,34 @@
-// function myfun(){
-//     var a = confirm("To view one more webiste click OK");
-//     if (a === true) {
-//      window.open("https://rayannaeem786.github.io/estate-agent.github.io");
-//     } else {
-//         alert("as you wish");
-//     };
- 
-//   };
- 
-//  function myfunction() {
-//      //  prompt("Welcome to Rayan's Websites. Please give us a feedback");
-//      var person = prompt("For verification Please enter your name");
- 
-//      if (person != null) {
-//          var apple = prompt("Hello " + person + "! How are you today?");
-//          if (apple == "fine") {
-//              alert("Mobile screen  recording enabled 😜");
-//          } else {
-//             alert("Mobile screen recording enabled enabled 😜");
-//         };
- 
-//      }
-//  }
-$(document).ready(function(){
+$(document).ready(function () {
     $("#exampleModal").modal('show');
 });
+var games = document.getElementById("myId");
+var texting = document.getElementById("gameText");
+function mainFuny() {
+    var apple = document.getElementById("main-id").value;
+    if (apple == "rayan") {
+
+    }else if(apple == "Rayan") {
 
 
-function myFunction(){
-    document.getElementById("java-btn").style.display = "block";
+    }
+    else if(apple == "abdullah") {
+
+
+    }
+    else if(apple == "Abdullah") {
+
+
+    }
+    else if(apple == "Aqeel") {
+
+
+    }
+    else if(apple == "aqeel") {
+
+
+    }
+     else{
+        games.style.display = "none";
+        texting.innerHTML = "OOPS you cannot visit this website Right Now";
+    };
 };
